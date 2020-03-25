@@ -24,3 +24,5 @@ fields:
   config:
     maxSize: 250
   label: Image
+pages:
+- content/work/the-scream-is-fading-new-research-reveals-why.md
