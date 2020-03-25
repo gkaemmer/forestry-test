@@ -1,4 +1,26 @@
 ---
 label: Article
 hide_body: true
-fields: []
+fields:
+- name: title
+  type: text
+  config:
+    required: false
+  label: Title
+- name: url
+  type: text
+  config:
+    required: false
+  label: URL
+  description: The URL of the article on the web
+- name: publication
+  type: text
+  config:
+    required: false
+  label: Publication
+  description: The name of the publication in which this article appears
+- name: image
+  type: file
+  config:
+    maxSize: 250
+  label: Image
