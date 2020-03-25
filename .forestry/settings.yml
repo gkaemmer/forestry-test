@@ -9,6 +9,8 @@ sections:
   label: Work
   create: all
   match: "**/*"
+  templates:
+  - article
 - type: heading
   label: Content
 - type: directory
