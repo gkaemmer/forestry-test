@@ -24,5 +24,15 @@ fields:
   config:
     maxSize: 250
   label: Image
+- name: date
+  type: datetime
+  label: Date
+  description: When the article was published
+  config:
+    required: false
+    date_format: 
+    time_format: 
+    display_utc: false
+  default: now
 pages:
 - content/work/the-scream-is-fading-new-research-reveals-why.md
