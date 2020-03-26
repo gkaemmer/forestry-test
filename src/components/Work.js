@@ -35,7 +35,11 @@ export default function Work() {
                   <div>
                     <strong>{work.title}</strong>
                     <br />
-                    <em>{work.publication}</em>,{" "}
+                    {work.publication && (
+                      <span>
+                        <em>{work.publication}</em>,{" "}
+                      </span>
+                    )}
                     <span>{format(new Date(work.date), "MMMM yyyy")}</span>
                   </div>
                 </a>
