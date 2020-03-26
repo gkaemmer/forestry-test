@@ -34,6 +34,3 @@ fields:
     time_format: 
     display_utc: false
   default: now
-pages:
-- content/work/the-many-requirements-of-hold-music-a-genre-for-no-one.md
-- content/work/the-scream-is-fading-new-research-reveals-why.md
