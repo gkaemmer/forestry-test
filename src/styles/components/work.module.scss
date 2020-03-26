@@ -1,0 +1,14 @@
+.list {
+  padding: 3rem;
+
+  li a {
+    display: flex;
+    align-items: center;
+    height: 4rem;
+  }
+
+  li a > img {
+    width: 3rem;
+    margin: 0 1rem 0 0;
+  }
+}

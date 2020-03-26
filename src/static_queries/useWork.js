@@ -10,7 +10,11 @@ export default function useWork() {
             frontmatter {
               title
               image {
-                id
+                childImageSharp {
+                  fluid(maxWidth: 800) {
+                    ...GatsbyImageSharpFluid
+                  }
+                }
               }
               url
               publication

@@ -11,12 +11,10 @@ export default function useSiteMetadata() {
           infoData {
             contact {
               email
-              github_handle
               twitter_handle
             }
             cta
             description
-            background_color
           }
         }
       }
