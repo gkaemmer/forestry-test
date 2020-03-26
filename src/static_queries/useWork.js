@@ -7,6 +7,7 @@ export default function useWork() {
         edges {
           node {
             id
+            fileAbsolutePath
             frontmatter {
               title
               image {
